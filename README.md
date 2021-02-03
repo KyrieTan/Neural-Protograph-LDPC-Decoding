@@ -7,20 +7,15 @@
        numpy =1.19.1  
        (the versions are not too strict)   
 
-The file 'GeneratorMatrix.py' can get generator matrixs for every lifting factor by change the value of parmeter 'Z'.  
+**The file 'GeneratorMatrix.py' can get generator matrixs for every lifting factor by change the value of parmeter 'Z'.**  
 
-
- 表头  | 表头  | 表头
- ---- | ----- | ------  
- 单元格内容  | 单元格内容 | 单元格内容 
- 单元格内容  | 单元格内容 | 单元格内容
  
-The project contains five files which can train eight different neural LDPC algorithms in our paper.  
+**The project contains five files which can train eight different neural LDPC algorithms in our paper.**
 
 file  | algorithm  | hyperparmeter
 ---- | ----- | ------
-Neural_MS.py  | neural NOMS(type1)               |              default    
-Neural_SP.py             |  neural SP | default
+Neural_MS.py             |               eural NOMS(type1)                |              default    
+Neural_SP.py             |                 neural SP                      |              default
 Neural_simplified_MS.py  |         simplified neural NOMS(type2)          |  is_weight=True, is_bias=True, others default
 Neural_simplified_MS.py  |         simplifeid neural NMS(type3)           |  is_weight=True, is_bias=False, others default
 Neural_simplified_MS.py  |         simplified neural NOMS(type4)          |  is_weight=False, is_bias=False, others default
