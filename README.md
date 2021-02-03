@@ -17,9 +17,9 @@ The file 'GeneratorMatrix.py' can get generator matrixs for every lifting factor
  
 The project contains five files which can train eight different neural LDPC algorithms in our paper.  
 
-      file               |                  algorithm                     |            hyperparmeter
-      ----               |                 -----                           |               ------
- Neural_MS.py  | neural NOMS(type1)               |              default    
+file  | algorithm  | hyperparmeter
+---- | ----- | ------
+Neural_MS.py  | neural NOMS(type1)               |              default    
 Neural_SP.py             |  neural SP | default
 Neural_simplified_MS.py  |         simplified neural NOMS(type2)          |  is_weight=True, is_bias=True, others default
 Neural_simplified_MS.py  |         simplifeid neural NMS(type3)           |  is_weight=True, is_bias=False, others default
